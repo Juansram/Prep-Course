@@ -1,0 +1,43 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se 
+lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero
+en tu comprensión.
+
+for
+El bucle for es uno de los diferentes tipos de bucles que permiten evaluar expresiones una y otra vez hasta que 
+devuelve lo que se esta buscando o  se detiene despues de un numero especificado de operacioes.
+La sintaxis de un bucle for este definida por tres cosas:
+//Declaracion de la variable      //expresion condicional       //incremento de la variable
+  for (var i = 1 ;                      i < 100 ;                           i++;  )
+
+
+&&, 
+Operador Lógico AND. Los operadores logicos permite evaluar varias expresiones a la vez, en el caso del operador 
+AND siguiendo las reglas de la matematica booleana solo retornara verdadero (true) si el valor de ambas 
+expresiones es verdadero. En todas las otras donde una de las expresiones es falsa o ambas son falsas siempre 
+retornara falso.
+
+     p.e. true  && true  = true
+          true  && false = false
+          false && false = false  
+
+
+||, 
+Operador Lógico OR. Este operador siguiendo las reglas de la matematica booleana evaluas dos o mas expresiones 
+y retornara verdadero si solo una de esas expresiones es verdadera. Por el contrario solo retornará falso si 
+todas las expresiones evaluadas son falsas.
+
+    p.e. true  || true  = true
+         true  || false = true
+         false || false = false  
+
+!
+Operador Lógico NOT. Este operador es denominado negación, opera cambiando el valor booleano de una 
+expresión por su contraparte. si la expresion se evalua en true la negación devolverá false y viceversa.
+
+    p.e. !true  = false
+         !false = true   
+
+
+
+
+
