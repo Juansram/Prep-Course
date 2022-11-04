@@ -1,0 +1,51 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como 
+si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente 
+cualquier agujero en tu comprensión.
+
+Variables
+Las varialbles son espacios de memoria que permiten almacenar información para luego utilizarla cuando 
+sea requerido. en JS tenemos tres formas de declarar estas variable:
+1.Var --> es una pablabra clave genérica, que permite nombrar e incicializar la variable.
+    p.e. var gato = 'michi'.
+
+2.let --> es otra palabra clave que permite declarar variables, la diferencia con Var es que se comporta
+ diferente al crear un "nivel de scope".
+
+3.const --> al declarar una variable con esta palabra clave dicha variable no se podra cambiar en el futuro.
+
+Strings
+Una string es una 'cadena de texto', es informacion introducida en forma de palabra o caracteres. 
+Siempre deben ser introducidas ('definidas') en el codigo utilizando las comillas, ya sea simples o dobles. ('' o "").
+
+Funciones (argumentos, return)
+Una función es un tipo particular de objeto, llamadas objetos invocables (callable objects). Sirven para modificar, 
+calcular o realizar alguna operación con las variables. Las funciones en JS siempre seran declaradas utilizando la palabra clave
+function, seguido del nombre de la función, y entre parentesis iran los argumentos, que son información solicitada por la funcion 
+para realizar la operación que se requiera.
+
+    p.e. function sumar(a ,b)
+
+Declaraciones if
+if es un operador que nos permite verificar si una expresión es verdadera (true) y si es así realizar una 
+ejecución de un código, y si no es verdadera, omite el codigo y permite seguir ejecutando un programa. tambien
+es conocida como flujos de control junto con las declaraciones else if y else.
+
+    p.e. if (10 + 10 === 20){
+        console.log('la expresion es verdadera');
+        } else if (10 + 10 !==20){
+            console.log('la expresion es falsa');
+        }else {
+            console.log('algo anda mal');
+        }
+
+
+Valores booleanos (true, false)
+Los valores booleanos son datos que representan un valor de verdad, esten definidos para que representen 
+solamente dos valores, verdadero (true) o falso (false). Estos valores representan valores de la logica binaria
+y como tal permiten el desarrollo de la matematica booleana para la toma de decisiones utilizando los operadores 
+lógicos como AND, OR y NOT.
+
+
+
+
+
