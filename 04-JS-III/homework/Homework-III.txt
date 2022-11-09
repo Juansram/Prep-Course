@@ -1,0 +1,22 @@
+ARRAYS
+
+Denominadas arreglos o matices estos elementos son contenedores de almacenamiento para coleccionar 
+cualquier tipo de datos, los arrelgos pueden contener además múltiples tipos de datos primarios 
+ya sean de tipo numérico, string, booleano etc. igualmente pueden contener funciones() internamente.
+
+la sintaxis para operar con arreglos juega un papel muy importante y hay que acostumbrarse a esta 
+notación para evitar cometer errores.
+
+para declarar un arreglo utilizamos los brackets así:
+
+    const NombreArreglo = ['martin', 'juan', 'pedro', 25, null, undefined, [1,2,3], function(), true]
+
+los arreglos contienen diversos métodos incorporados que permiten manejar su información de diversas formas, 
+entre los principales encontramos:
+.push
+.pop
+.unshift
+.shift
+.splice
+
+cada uno de estos métodos tienen diferentes formas de obtener informacion y/o modificar un arreglo.
