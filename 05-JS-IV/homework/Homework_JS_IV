@@ -1,0 +1,45 @@
+# Homework: Javascript IV
+
+- Objetos:
+  Un Objeto es un conjunto de propiedades, las cuales a su vez tienen una asociación entre un nombre (o Clave) y un valor.
+  Los Objetos continene mucha información sobre una "cosa" en específico.
+  Los objetos nos permiten representar el mundo real para poder realizar las operaciones necesarias con nuestros códigos de programación.
+  Los Objetos se instancian usando corchetes {}.
+  const nuevoObjeto = {};
+
+- Propiedades
+  Los Objetos contienen los denominados pares Clave:valor, cada clave es única dentro de un objeto, pero varias claves pueden tener el mismo valor. Los valores de las claves (o propiedades) pueden ser de cualquier tipo (cadena, número, booleano, matriz, funcion o incluso otro objeto).
+
+          const nuevoObjeto = {
+              nombre: 'Juan Sebastian',
+              edad: 40,
+              hobby: 'futbol',
+          };
+
+- Métodos
+  Dentro de un objeto los valores de las propiedades se pueden establecer como funciones. Las funciones guardades dentro de un objeto se denominan métodos. Estos métodos nos permites realizar diversas operaciones con la información de los objetos.
+
+          const nuevoObjeto = {
+              nombre: 'Juan Sebastian',
+              edad: 40,
+              hobby: 'futbol',
+              saludar: function(){
+                  consol.log('Hola a todo el mundo')
+              }
+          };
+
+- Bucle `for…in`
+  En caso de querer iterar sobre cada par clave:valor en nuestro objeto, el bucle "for" estandar que usábamos con las matrices no es posible usarlo, dado que los objetos nó contienen indices numéricos. Para estos casos JavaScript tiene un segundo tipo de bucle integrado llamado "for...in loop" Este bucle recorerá cada clave del objeto y finalizará cuando se hayan iterado todas las claves.
+
+          for (let clave in usuario){
+              console.log(clave);
+              console.log(usuario[clave]);
+
+* Notación de puntos vs notación de corchetes
+  La principal diferencia entre la notación de puntos vs la notación de corchetes es que la notacion de puntos se hizo para mejorar la velocidad al escribir el código y notación en determinadas ocaciones no nos permite acceder crear nueva información para propiedades de un objeto, por lo tanto tendriamos que utilizar la notacion de los corchetes, en todo caso se utilizan las dos notaciones dependiendo del contexto y de la necesidad específica.ls
+
+      var objeto = {
+          propiedes: 'valor',
+      }
+      console.log(objeto.propiedad); // >valor       //notación punto.
+      console.log(objeto['propiedad']); // >valor    //notación corchetes.
