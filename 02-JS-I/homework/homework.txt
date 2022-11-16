@@ -43,7 +43,7 @@ Valores booleanos (true, false)
 Los valores booleanos son datos que representan un valor de verdad, esten definidos para que representen 
 solamente dos valores, verdadero (true) o falso (false). Estos valores representan valores de la logica binaria
 y como tal permiten el desarrollo de la matematica booleana para la toma de decisiones utilizando los operadores 
-lógicos como AND, OR y NOT.
+lógicos como AND, OR NOT.
 
 
 

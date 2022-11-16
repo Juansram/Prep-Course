@@ -1,0 +1,35 @@
+# Homework: Javascript V
+
+* prototype
+El prototype de JavaScript es la forma de permitir a los objetos heredar metodos. Como ya sabemos todo 
+dentro de JavaScript es un objeto, y como tal tendremos acceso a los metodos que creemos entro de cada 
+objeto nuevo que creemos, pero tambien vamos a tener acceso a todos los metodos dentro del prototipo
+de cada objeto, este prototipo contiene o mejor, hereda los metodos que han sido establecidos previamente de 
+acuerdo con el tipo de objeto con el que estemos trabajando. Esto explica el porque tenemos acceso a metodos para
+el menjo de las Strings o de los Arrays que nosotros no hemos establecido dentro de cada uno de estos objetos.
+
+La forma de permitir tener herencia entre objetos se llama la dadena de prototipado o "prototype chaining", es la
+forma que utiliza JavaScript para heredar metodos buscando siempre primero dentro de la instancia del objeto, luego
+en su prototypo, luego en el prototipo del prototipo y asi hasta llegar al "Objeto Alfa" que es del que se heredan
+todos los metodos base de JavaScript.
+
+Actualmente en JS tenemos 3 formas de trabajar con la herencia por prototipado:
+    1.Usando la sintaxis antigua de JS, creando una funcion constructor y usando la forma:
+        Persona.prototype.getNombre = function (){xxxxxxxxxxxx};
+
+    2.El denomindo "Pure Prototypal inheritance", declarando un objeto cualquiera y usando la sintaxis:
+        var Objeto = Object.create(person);
+
+    3.Usando la nueva sintaxis de la ES6 con la palabra clave "class", se crea una funcion constructor que va a 
+    recibir los valores de las propiedades, se pueden crear metodos dentro de "class" los cuales quedaran
+    dentro del prototipo de ese objeto, se usan las palabra clave "extends" y "super" para permitir la herencia
+    hacia los nuevos objetos usados creando esta sintaxis.
+
+* Constructors (de Clases)
+Las clases son plantillas que nos permiten crear infinidad de objetos que compartan las mismas propiedades, 
+segun un modelo predefinido. Estas clases se utilizan para representar entidades o conceptos.
+Por esta razon son tambien denomidados constructores, pues facilitan el proceso de "construir" nuevos objetos
+de acuerdo a las necesidades de cada caso.
+
+Asi como en el caso de la herencia a traves del prototipado en JS tenemos 3 formas de crear los constructores, nos
+podemos referir a la sintaxis previamente explicada para la creacion de estos constructores.
