@@ -1,0 +1,24 @@
+# Homework: Javascript VI
+
+* Funciones Callback
+Las funciones Callback son funciones que se pasan como argumento a otra función. Las Funciones Callback 
+se derivan de un paradigma de programación conocido como "programación Funcional". Es un concepto muy 
+importante en Javascript, dichas funciones se pueden llamar en cualquier momento dentro de la función 
+que la recibe y pasar argumentos dentro de la misma. Por convención se utiliza "cb" como argumento para
+la variable que se usará de callback.
+
+Un dato importante a tener en cuenta es que Javascript trata a las funciones como "first class", esto
+significa que las funciones se pueden pasar como argumentos a otras funciones, retornarlas como resultado
+de una funcion y ser guardadas en variables u otras estructuras de datos.
+
+El callback se utiliza al momento de utilizargit sta la funcion!!, es por esto que puedo pasar otra funcion
+como argumento en el momento de usarla en esta nueva funcion.
+
+La funcion NO se puede pasar invocada (es decir con los parentesis: function()), porque esto me arrojaria 
+un error.
+
+
+
+
+
+
